@@ -4,16 +4,23 @@
   "description": "A wikipedia clone challenge.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server/index.js",
     "build": "webpack -w"
   },
   "author": "Will Ruiz",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
     "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "webpack": "^4.5.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1",
+    "webpack-cli": "^2.0.14"
   }
 }
